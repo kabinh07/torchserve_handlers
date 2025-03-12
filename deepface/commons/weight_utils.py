@@ -8,7 +8,8 @@ import bz2
 import gdown
 
 # project dependencies
-from deepface.commons import package_utils
+from commons import package_utils
+from commons.logger import Logger
 
 tf_version = package_utils.get_tf_major_version()
 if tf_version == 1:
